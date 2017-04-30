@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Timer - By Guy Hecht</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="timer.js"></script>
+    <link rel="stylesheet" type="text/css" href="timer.css">
+  </head>
+  <body>
+    <div id="setPomodoro">
+      <h4>Set Pomodoro</h4>
+      <button id="plusPom" onclick="addPomodoro()">+</button>
+      <div id="displayPomodoro">25</div>
+      <button id="minusPom" onclick="decPomodoro()">-</button>
+    </div>
+    <div id="setBreak">
+      <h4>Set Break</h4>
+      <button id="plusBreak" onclick="addBreak()">+</button>
+      <div id="displayBreak">5</div>
+      <button id="minusBreak" onclick="decBreak()">-</button>
+    </div>
+
+    <h4>Timer</h4>
+    <div id="timerDisplay" >
+      --:--
+    </div>
+    <div>
+      <h3 id="status">----------</h3>
+    </div>
+
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <button onclick="pauseTimer()">Pause</button>
+
+  </body>
+</html>

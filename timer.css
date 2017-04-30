@@ -1,0 +1,16 @@
+#minusPom, #plusPom,#plusBreak,#minusBreak{
+  width: 25px;
+  height: 20px;
+}
+
+#timerDisplay{
+  font-size: 34px;
+}
+
+#status{
+  color: red;
+}
+
+button{
+  width: 50px;
+}
